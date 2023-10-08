@@ -24,6 +24,6 @@ listOf(
 rootProject.name = "sentinel-api"
 
 includeSubs(base = "sentinel-reception-api", path = "reception", "core")
-includeSubs(base = "sentinel-registration-api", path = "registration", "core")
+includeSubs(base = "sentinel-registration-api", path = "registration", "core", "flix")
 includeSubs(base = "sentinel-enterprise-authentication-api", path = "enterprise/authentication", "core")
 includeSubs(base = "sentinel-enterprise-profile-api", path = "enterprise/profile", "core")
